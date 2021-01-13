@@ -1,2 +1,2 @@
 # Adafruit WebSerial Plotter
-Source files for the Adafruit WebSerial Plotter available at: https://adafruit-webserial-plotter.glitch.me/ and https://adafruit-imu-calibration.glitch.me/.
+Source files for the Adafruit WebSerial Plotter available at https://adafruit.github.io/Adafruit_WebSerial_Plotter/.
