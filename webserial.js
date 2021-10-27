@@ -32,7 +32,7 @@ WebSerial.prototype = {
 		// - Request a port and open a connection.
     this.port = await navigator.serial.requestPort();
     // - Wait for the port to open.toggleUIConnected
-    await this.port.open({ baudrate: this.baudrate });
+    await this.port.open({ baudRate: this.baudrate });
 
     const encoder = new TextEncoderStream();
     this.outputDone = encoder.readable.pipeTo(this.port.writable);
